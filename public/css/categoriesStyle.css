@@ -1,0 +1,208 @@
+.site-section {
+  padding: 2.5em 0; }
+@media (min-width: 768px) {
+  .site-section {
+    padding: 7em 0; } }
+.site-section.site-section-sm {
+  padding: 4em 0; }
+
+.section-title {
+  color: #000;
+  margin-bottom: 50px; }
+.section-title h2 {
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #222;
+  position: relative;
+  display: inline-block; }
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  background: #777; }
+
+
+.caption {
+  font-size: .9rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem; }
+  .caption.small {
+    font-size: .6rem; }
+
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+    
+    }
+    
+    .grid > article {
+      border-bottom: 1px solid #A9A9A9;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 20px;
+    }
+    
+    .grid > article img {
+      object-fit: cover;
+      width: 100%;
+      height:250px;
+      border-top-left-radius: 19px;
+      border-top-right-radius: 19px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      
+    
+    }
+    
+    .grid .text {
+      padding: 20px;
+    
+    }
+
+.top_post_date{
+  position: relative;
+}
+
+
+@media screen and (min-width: 600px) {
+  .col-lg-3{
+    padding-left: 50px;
+  }
+}
+
+.trend-entry {
+  margin-bottom: 30px; 
+  }
+.trend-entry .number {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50px;
+  flex: 0 0 50px;
+  font-size: 30px;
+  line-height: 1;
+  color: #ccc; }
+.trend-entry .trend-contents h2 {
+  font-size: 18px; }
+.trend-entry .trend-contents h2 a {
+  color: #000; }
+
+.trend_link .more {
+  color: #EB5160;
+  text-transform: uppercase;
+  font-size: .83rem; }
+.trend_link .more:hover{
+  color: orange;
+}
+
+.more{
+  color: red;
+}
+
+.more:hover{
+  color: black;
+}
+
+.post-meta {
+  font-size: .8rem; }
+.post-meta a {
+  color: #000; }
+
+.date-read {
+  color: #b4b4b4; }
+
+.custom-pagination {
+  padding: 0;
+  margin: 0;
+  font-size: .89rem;
+  color: #000; }
+  .custom-pagination li {
+    display: inline-block; }
+    .custom-pagination li a {
+      padding: 10px 10px;
+      display: inline-block;
+      color: #b3b3b3; }
+      .custom-pagination li a:hover {
+        color: #000; }
+    .custom-pagination li.active a {
+      color: #000; }
+
+.card__date {
+  position: absolute;
+  background: #000;;
+  bottom:2px;
+  right:2px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color:#fff;
+  text-align: center;
+  line-height: 13px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.card__date__day{
+    display: block;
+    font-size: 14px;
+  }
+
+.card__date__month {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .read_more a{
+    color:grey;
+  }
+
+  #top_border {
+    width: 80px;
+    position: relative;
+    border-bottom: 2px solid #d5c6ff;
+   
+  }
+
+  .hvr-icon-forward {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+  }
+  .hvr-icon-forward .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-icon-forward:hover .hvr-icon, .hvr-icon-forward:focus .hvr-icon, .hvr-icon-forward:active .hvr-icon {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  .see_trends a{
+    color:#8c7687;
+  }
+  
+  .end_line{
+    text-align: center;
+    width: 50%;
+  }
+  .top_p a{
+    color: #CD853F;
+  }
+
+  .white_line{
+    position:relative;
+    width:100%;
+    height: 5px;
+    background-color: white;
+  
+  }

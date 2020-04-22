@@ -1,0 +1,28 @@
+.section-title.change_color {
+  color: #fff;
+ }
+.section-title.change_color h2 {
+  border-bottom: 1px solid #ddd;
+}
+
+.trend-entry.change_color .number {
+  color: #555; }
+
+.trend-entry.change_color .trend-contents h2 a {
+  color: #fff; }
+
+.see_trends.change_color a{
+  color:#bca0dc;
+}
+
+.site-section .body_of_post.change_color{
+  color: #fff;
+}
+
+
+.single-content.change_color h1 {
+ 
+  color: #fff; }
+
+.single-content.change_color hr {
+  border: 1px solid orangered;}

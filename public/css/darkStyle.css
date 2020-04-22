@@ -1,0 +1,44 @@
+
+
+
+.insta-logo.change_color a{
+  color:white;
+}
+
+.insta-logo.change_color a:hover{
+  color: #d6249f;
+}
+
+.display_advance.change_color i{
+  color:white;
+}
+
+
+.nav_line.change_color{
+  
+  border: 0.25px solid rgba(255,255,255, .3);
+
+}
+
+
+.footer.change_color {
+ 
+  color:  #FAFAFA;
+  background-color: #2f2f2f;
+
+}
+
+
+
+.navbar-brand.change_color{
+  color:#FAFAFA;
+}
+
+.contact_links.change_color a{
+  color:#fff;
+}
+
+
+
+
+

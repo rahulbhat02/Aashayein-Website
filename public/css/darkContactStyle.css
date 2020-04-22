@@ -1,0 +1,51 @@
+.site-section.change_color {
+  background-color: #333;}
+
+
+.section-title.change_color {
+  color: #fff;
+ }
+.section-title.change_color h2 {
+  border-bottom: 1px solid #ddd;
+}
+
+
+.form-group.change_color label{
+  color:#fff;
+}
+
+.form-group.change_color .form-control {
+  background: #000;
+  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #555;
+  color: #fff; }
+
+.form-group.change_color .form-control:active, .form-group.change_color .form-control:focus {
+  border-bottom: 1px solid #555; }
+
+.row.change_color .btn {
+  color: #000;
+  border: 0px solid transparent;
+  background-color: #fff;}
+
+
+
+
+.success_msg.change_color{
+  background-color:#333;  
+}
+
+.thank_you.change_color{
+  color:white;
+}
+.msg.change_color{
+  color:white;
+}
+
+.success_msg.change_color i{
+  color:white;
+}
+
+.contact_us_line.change_color{
+  border: 1px solid blue;
+}

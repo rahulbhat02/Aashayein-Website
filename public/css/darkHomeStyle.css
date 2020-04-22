@@ -1,0 +1,141 @@
+/* Home Style */
+
+
+
+
+
+
+.carousel.change_color .carousel-control-prev-icon,
+.carousel.change_color .carousel-control-next-icon {
+   filter: invert(0%);
+  
+}
+
+
+
+
+
+.carousel.change_color .carousel-indicators li {
+  background-color: #999;
+ 
+
+
+}
+
+.carousel.change_color .carousel-indicators .active {
+  background-color: #55186e;
+}
+
+
+
+.half-post-entry.change_color {
+  color: #DEDEDE
+}
+
+
+
+.half-post-entry .caption.change_color {
+  border-left: 5px solid #CF450B;
+  color:#D4D4D4;
+}
+
+
+.half-post-entry.change_color .contents h2 a {
+  color: #fff; }
+
+
+.post-meta.change_color a {
+  color: #fff; }
+
+
+.section-title.change_color {
+  color: #fff;
+ }
+.section-title.change_color h2 {
+  border-bottom: 1px solid #ddd;
+}
+
+.post-entry-1.change_color, .post-entry-2 {
+  color:#D4D4D4; }
+
+.post-entry-1.change_color h2 a, .post-entry-2.change_color h2 a {
+  color: #fff; }
+
+
+.post-entry-2.change_color:first-child{
+  background-color: #333;
+}
+
+
+
+.trend-entry.change_color .number {
+  color: #555; }
+
+.trend-entry.change_color .trend-contents h2 a {
+  color: #fff; }
+
+.see_trends.change_color a{
+  color:#bca0dc;
+}
+
+
+.grid.change_color > article {
+  
+   border-bottom: 1px solid #A9A9A9;
+   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+   background-color: rgba(255,255,255,.1);
+}
+
+
+.grid.change_color .text {
+  color:white;
+}
+
+.grid.change_color .text .cap{
+  color:#ECECEC;
+}
+
+.grid.change_color .text hr{
+  border: 1px solid rgba(255, 0, 0, .6);
+}
+
+
+.white_line.change_color{
+  background-color: black;
+
+}
+
+
+.first_col.change_color{
+  color:white;
+}
+.comma{
+  color:red;
+}
+
+.two.change_color{
+  color:white;
+}
+
+
+.follow.change_color{
+  color:#ECECEC;
+}
+
+
+.log.change_color{
+  color:#ECECEC;
+ 
+}
+
+.view_more_button_light.change_color{
+  display:none;
+}
+
+.view_more_button_dark.change_color{
+  display:block;
+}
+
+.view_more_button_dark{
+  display:none;
+}

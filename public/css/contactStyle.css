@@ -1,0 +1,70 @@
+.site-section {
+  padding: 2.5em 0; 
+  background-color: #F5F5F5;}
+@media (min-width: 768px) {
+  .site-section {
+    padding: 7em 0; } }
+.site-section.site-section-sm {
+  padding: 4em 0; }
+
+.section-title {
+  color: #000;
+  margin-bottom: 50px; }
+.section-title h2 {
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #222;
+  position: relative;
+  display: inline-block; }
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  background: #777; }
+
+
+.form-control {
+  margin-right: 10px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  border: none;
+  background: #fff;
+  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #ccc; }
+  .form-control:active, .form-control:focus {
+    border-bottom: 1px solid #ccc; }
+
+.btn {
+  color: #fff;
+  border-radius: 30px;
+  border: 0px solid transparent;
+  background-color: black;}
+
+
+textarea{
+  min-height: 200px;
+}
+
+.success_msg{
+  text-align:center;
+  width:100%;
+  height:100%;
+  background-color:#F5F5F5;
+  
+}
+
+.thank_you{
+  font-size:56px;
+
+}
+.msg{
+  font-size:20px;
+
+}
+
+.success_msg i{
+  font-size:76px;
+}
+

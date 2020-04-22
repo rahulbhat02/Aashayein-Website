@@ -1,0 +1,165 @@
+.title{
+  color: #b48608; 
+  font-family: 'Droid serif', serif; 
+  font-size: 36px; 
+  font-weight: 400;
+  text-align: center;
+	margin-left:10px;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+   z-index: 99;
+}
+
+.sidenav a:hover {
+  color: orange;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+#nav_button{
+	position:relative;
+	float:right;
+	color: #333; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style:normal;text-align: center;
+	
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+hr{
+  width:50%; 
+  text-align:center;
+}
+
+.login {
+
+  background: #eceeee;
+ 
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: auto;
+  margin: 20px auto 0;
+  margin-top:10px;
+  width: 298px;
+}
+
+input[type="password"], input[type="text"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 25px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+
+.log_in_button{
+  text-align: center;
+  padding:10px;
+  padding-bottom: 30px;
+  width:100px;
+  margin-left: calc(50% - 50px);
+}
+
+.btn{
+  border-radius: 5px;
+}
+
+p{
+	text-align:center;
+	color:red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+button{
+	padding:2px;
+	margin-top:5px;
+	width:100%;
+}
+
+.alert{
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#rec {
+  position: relative;
+  width:  298px;
+  height: 70px;
+  background-color: rgba(1,20,80,1);
+  margin: 20px auto 0;
+  margin-top:100px;
+  overflow: hidden;
+  text-align:center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+  
+}
+
+#LOGIN{
+  position: relative;
+  padding-top: 10px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+}
+
+h3{
+  text-align: center;
+  
+}

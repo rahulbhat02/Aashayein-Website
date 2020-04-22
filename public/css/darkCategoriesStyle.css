@@ -1,0 +1,40 @@
+.section-title.change_color {
+  color: #fff;
+ }
+.section-title.change_color h2 {
+  border-bottom: 1px solid #ddd;
+ }
+
+.trend-entry.change_color .number {
+  color: #555; }
+
+.trend-entry.change_color .trend-contents h2 a {
+  color: #fff; }
+
+.see_trends.change_color a{
+  color:#bca0dc;
+}
+
+.grid.change_color > article { 
+  border-bottom: 1px solid #A9A9A9;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255,255,255,.1);
+}
+
+.grid.change_color .text {
+  color:white;
+}
+
+.grid.change_color .text .cap{
+  color:#ECECEC;
+}
+
+.grid.change_color .text hr{
+  border: 1px solid rgba(255, 0, 0, .6);
+}
+
+.white_line.change_color{
+
+  background-color: black;
+
+}

@@ -1,0 +1,30 @@
+.post-entry-2.change_color:first-child{
+  background-color: #333;
+}
+
+.site-section.change_color{
+  color:#ECECEC;
+}
+
+.section-title.change_color {
+  color: #fff;
+ }
+.section-title.change_color h2 {
+  border-bottom: 1px solid #ddd;
+}
+
+.post-entry-1.change_color, .post-entry-2 {
+  color:#D4D4D4; }
+
+.post-entry-1.change_color h2 a, .post-entry-2.change_color h2 a {
+  color: #fff; }
+
+.trend-entry.change_color .number {
+  color: #555; }
+
+  .trend-entry.change_color .trend-contents h2 a {
+    color: #fff; }
+  
+  .see_trends.change_color a{
+    color:#bca0dc;
+  }
